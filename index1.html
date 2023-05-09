@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <title>body click</title>
+    <style>
+      
+    .custom-container {
+        background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 10s ease infinite;
+        max-width: 600px; 
+    }
+
+
+@keyframes gradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% { 
+        background-position:100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+      .box-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 30px;
+        height: 100vh;
+        background-color: #f6e7f7;
+        padding: 20px;
+      }
+      
+      .box {
+        border-radius: 22px;
+        background-color: #fff;
+        box-shadow: 0px 0px 10px rgba(249, 47, 47, 0.2);
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        color: #fd7272;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .box:hover {
+        transform: scale(1.1);
+        box-shadow: 0px 0px 15px rgba(242, 32, 32, 0.3);
+      }
+      
+      
+      </style>
+</head>
+<body>
+    
+    <div class="box-container">
+        <div class="box" onclick="window.location.href=''">
+          <h3>semester 1</h3>
+        </div>
+        <div class="box" onclick="window.location.href=''">
+          <h3>semester 2</h3>
+        </div>
+        <div class="box" onclick="window.location.href=''">
+          <h3>semester 3</h3>
+        </div>
+        <div class="box" onclick="window.location.href=''">
+          <h3>semester 4</h3>
+        </div>
+        <div class="box" onclick="window.location.href=''">
+          <h3>semester 5</h3>
+        </div>
+        <div class="box" onclick="window.location.href=''">
+          <h3>semester 6</h3>
+        </div>
+        <div class="box" onclick="window.location.href=''">
+          <h3>semester 7</h3>
+        </div>
+        <div class="box" onclick="window.location.href=''">
+          <h3>semester 8</h3>
+        </div>
+    </div>
+<hr/>
+
+<div class="jumbotron">
+ 
+  <p class="display-2 text-info centre" style="text-align:center";
+        >Reviews</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mt-4 p-5 custom-container text-white rounded">
+          <h1>Aviraj</h1>
+          <p class="display">Abhinay is one of the best person i have ever seen in my life , I accept that the is a legendary guy with a great goal and great mindset, he will surely be the king and the richest guy.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mt-4 p-5 custom-container text-white rounded">
+          <h1>Aditya</h1>
+          <p class="display">Abhinay is one of the best person i have ever seen in my life , I accept that the is a legendary guy with a great goal.</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="mt-4 p-5 custom-container text-white rounded">
+          <h1>Akash</h1>
+          <p class="display">Abhinay is one of the best person i have ever seen in my life , I accept that the is a legendary guy with a great goal , he is surely going to be the richest guy..</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="mt-4 p-5 custom-container text-white rounded">
+          <h1>Prashant</h1>
+          <p class="display">Abhinay is one of the best person i have ever seen in my life , I accept that the is a legendary guy with a great goal.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
